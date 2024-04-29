@@ -134,7 +134,7 @@ class ReactiveMonthPickerDialog extends ReactiveFormField<DateTime, String> {
                     confirmWidget: confirmText,
                     cancelWidget: cancelText,
                     customHeight: customHeight,
-                    customWidth: customWidth,
+                    customWidth: customWidth ?? 320,
                     yearFirst: yearFirst,
                     dismissible: dismissible,
                     roundedCornersRadius: roundedCornersRadius,
